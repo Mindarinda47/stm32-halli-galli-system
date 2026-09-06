@@ -66,8 +66,4 @@ flowchart LR
 | [`touch_sensor_original.c`](src/preserved-modules/touch_sensor_original.c) | GPIO 기반 터치 입력과 출력 제어 |
 | [`ultrasonic_sensor_original.c`](src/preserved-modules/ultrasonic_sensor_original.c) | GPIO Trigger와 TIM2 counter를 이용한 Echo 시간 측정 |
 
-## 공개 범위
-
-최종 팀 프로젝트는 완성·통과했지만 현재 개인 보관 자료에는 전체 통합 소스가 없습니다. 따라서 팀 결과와 개인 기여를 기능 단위로 설명하고, 저장소에는 직접 작성이 확인된 센서 코드와 설명 문서만 포함합니다. 팀원 코드, 교수 제공 자료, 개인정보와 출처 불명 드라이버는 공개하지 않습니다.
-
 [출처와 저작권](docs/COPYRIGHT.md) · [자료 구성](docs/ORIGINAL_REVIEW.md)
