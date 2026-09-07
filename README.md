@@ -59,11 +59,14 @@ flowchart LR
 
 ## 대표 코드
 
-현재 남아 있는 코드는 전체 통합본이 아니라 프로젝트 과정에서 작성한 독립 센서 모듈입니다.
+현재 남아 있는 대표 코드는 전체 통합본이 아니라 프로젝트 과정에서 직접 작성한 독립 센서 모듈입니다. 최종 시스템의 Touch Sensor 입력 구성과 연결되는 코드를 대표 사례로 제시합니다.
 
 | 코드 | 확인할 내용 |
 |---|---|
 | [`touch_sensor_original.c`](src/preserved-modules/touch_sensor_original.c) | GPIO 기반 터치 입력과 출력 제어 |
-| [`ultrasonic_sensor_original.c`](src/preserved-modules/ultrasonic_sensor_original.c) | GPIO Trigger와 TIM2 counter를 이용한 Echo 시간 측정 |
+
+## 공개 범위
+
+최종 팀 프로젝트는 완성·통과했지만 현재 개인 보관 자료에는 게임 상태 로직, LCD, Bluetooth와 PIR 처리를 포함한 전체 통합 소스가 없습니다. 따라서 팀 결과와 개인 기여를 기능 단위로 설명하고, 저장소에는 직접 작성이 확인된 터치센서 코드와 설명 문서만 포함합니다. 팀원 코드, 교수 제공 자료, 개인정보와 출처 불명 드라이버는 공개하지 않습니다.
 
 [출처와 저작권](docs/COPYRIGHT.md) · [자료 구성](docs/ORIGINAL_REVIEW.md)
