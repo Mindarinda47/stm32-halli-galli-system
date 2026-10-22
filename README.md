@@ -28,8 +28,6 @@ flowchart LR
   SCORE --> COM[Bluetooth Smartphone Terminal]
 ```
 
-세부 흐름은 [Architecture](docs/ARCHITECTURE.md)에서 확인할 수 있습니다.
-
 ## 개인 기여
 
 - 무작위 카드와 점수·결과를 표시하는 LCD 인터페이스 구성
@@ -39,7 +37,7 @@ flowchart LR
 - 게임 난이도와 진행 순서 조정, 최종 통합 테스트
 - 팀 진행 상황 공유와 마감 직전 통합·디버깅 참여
 
-[구체적인 담당 범위](docs/CONTRIBUTION.md) · [협업 과정](docs/COLLABORATION.md)
+[구체적인 담당 범위](docs/CONTRIBUTION.md)
 
 ## 대표 문제 해결
 
@@ -59,7 +57,7 @@ flowchart LR
 
 ## 대표 코드
 
-현재 남아 있는 대표 코드는 전체 통합본이 아니라 프로젝트 과정에서 직접 작성한 독립 센서 모듈입니다. 최종 시스템의 Touch Sensor 입력 구성과 연결되는 코드를 대표 사례로 제시합니다.
+현재 남아 있는 두 C 파일은 각각 독립된 `main`을 가진 센서 실험 코드이며 최종 통합 게임 소스가 아닙니다. 최종 시스템의 Touch Sensor 입력 구성과 연결되는 코드를 대표 사례로 제시합니다.
 
 | 코드 | 확인할 내용 |
 |---|---|
